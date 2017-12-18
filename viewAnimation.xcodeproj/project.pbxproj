@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186B61701FE7CA9D00836F5A /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B616F1FE7CA9D00836F5A /* PhotosViewController.swift */; };
+		186B61721FE7CB8D00836F5A /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B61711FE7CB8D00836F5A /* PhotoCollectionViewCell.swift */; };
+		186B61741FE7CC2300836F5A /* DialerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B61731FE7CC2300836F5A /* DialerCollectionViewCell.swift */; };
 		18AF7A7C1FE2B10A00F0ACC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF7A7B1FE2B10A00F0ACC6 /* AppDelegate.swift */; };
-		18AF7A7E1FE2B10A00F0ACC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF7A7D1FE2B10A00F0ACC6 /* ViewController.swift */; };
 		18AF7A811FE2B10A00F0ACC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF7A7F1FE2B10A00F0ACC6 /* Main.storyboard */; };
 		18AF7A831FE2B10A00F0ACC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AF7A821FE2B10A00F0ACC6 /* Assets.xcassets */; };
 		18AF7A861FE2B10A00F0ACC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF7A841FE2B10A00F0ACC6 /* LaunchScreen.storyboard */; };
 		18AF7A911FE2B10B00F0ACC6 /* viewAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF7A901FE2B10B00F0ACC6 /* viewAnimationTests.swift */; };
 		18AF7A9C1FE2B10B00F0ACC6 /* viewAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF7A9B1FE2B10B00F0ACC6 /* viewAnimationUITests.swift */; };
+		18AF7AAA1FE3C91800F0ACC6 /* DialerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF7AA91FE3C91800F0ACC6 /* DialerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		186B616F1FE7CA9D00836F5A /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		186B61711FE7CB8D00836F5A /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		186B61731FE7CC2300836F5A /* DialerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialerCollectionViewCell.swift; sourceTree = "<group>"; };
 		18AF7A781FE2B10A00F0ACC6 /* viewAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AF7A7B1FE2B10A00F0ACC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18AF7A7D1FE2B10A00F0ACC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18AF7A801FE2B10A00F0ACC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18AF7A821FE2B10A00F0ACC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AF7A851FE2B10A00F0ACC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		18AF7A971FE2B10B00F0ACC6 /* viewAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viewAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AF7A9B1FE2B10B00F0ACC6 /* viewAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewAnimationUITests.swift; sourceTree = "<group>"; };
 		18AF7A9D1FE2B10B00F0ACC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AF7AA91FE3C91800F0ACC6 /* DialerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				18AF7A7B1FE2B10A00F0ACC6 /* AppDelegate.swift */,
-				18AF7A7D1FE2B10A00F0ACC6 /* ViewController.swift */,
+				18AF7AA91FE3C91800F0ACC6 /* DialerViewController.swift */,
+				186B61731FE7CC2300836F5A /* DialerCollectionViewCell.swift */,
+				186B61711FE7CB8D00836F5A /* PhotoCollectionViewCell.swift */,
 				18AF7A7F1FE2B10A00F0ACC6 /* Main.storyboard */,
+				186B616F1FE7CA9D00836F5A /* PhotosViewController.swift */,
 				18AF7A821FE2B10A00F0ACC6 /* Assets.xcassets */,
 				18AF7A841FE2B10A00F0ACC6 /* LaunchScreen.storyboard */,
 				18AF7A871FE2B10A00F0ACC6 /* Info.plist */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AF7A7E1FE2B10A00F0ACC6 /* ViewController.swift in Sources */,
+				186B61701FE7CA9D00836F5A /* PhotosViewController.swift in Sources */,
+				186B61721FE7CB8D00836F5A /* PhotoCollectionViewCell.swift in Sources */,
+				186B61741FE7CC2300836F5A /* DialerCollectionViewCell.swift in Sources */,
+				18AF7AAA1FE3C91800F0ACC6 /* DialerViewController.swift in Sources */,
 				18AF7A7C1FE2B10A00F0ACC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM7YAA8UCB;
 				INFOPLIST_FILE = viewAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ockypocky.viewAnimation;
@@ -441,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XM7YAA8UCB;
 				INFOPLIST_FILE = viewAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ockypocky.viewAnimation;
